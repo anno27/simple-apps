@@ -1,5 +1,7 @@
 services:
   apps:
+    container_name: ct-simpleapps-anno
+    image: simpleapps-anno
     build: ./apps
     ports:
       - "10007:3000"
